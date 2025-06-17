@@ -1,0 +1,5 @@
+pip install transformers==4.48.0
+pip install accelerate==1.6.0
+pip install torch
+pip install gptqmodel==1.7.2
+pip install aqlm==1.1.6
