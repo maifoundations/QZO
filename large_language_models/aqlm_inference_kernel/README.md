@@ -1,0 +1,5 @@
+# 🗒️Notes about AQLM in QZO
+
+We modified the `Triton` inference kernel of [AQLM](https://arxiv.org/pdf/2401.06118) to disentangle weight matrix reconstruction and matrix-vector multiplication, since this helps to accelerate the training speed with QZO. The code implementation of the modified kernel is provided in `kernel_selector.py` and `triton_kernel_dequant.py`. 
+
+If you wish to run QZO with AQLM, it is strongly suggested to replace the official `Triton` inference kernel with ours. A straightforward way to do this is to copy the `kernel_selector.py` and `triton_kernel_dequant.py`, and paste them into the folder `aqlm.inference_kernels` inside your own CONDA environment associated with QZO. We may consider a more convenient way to replace the inference kernel if the community strongly demands it.
