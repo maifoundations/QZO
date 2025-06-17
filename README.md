@@ -54,14 +54,11 @@ Fine-tuning large language models (LLMs) unlocks their potential for various dow
 
 # 🎓Citation
 ```
-@misc{shang2025finetuningquantizedneuralnetworks,
-      title={Fine-tuning Quantized Neural Networks with Zeroth-order Optimization}, 
-      author={Sifeng Shang and Jiayi Zhou and Chenyu Lin and Minxian Li and Kaiyang Zhou},
-      year={2025},
-      eprint={2505.13430},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.13430}, 
+@article{shang2025fine,
+  title={Fine-tuning Quantized Neural Networks with Zeroth-order Optimization},
+  author={Shang, Sifeng and Zhou, Jiayi and Lin, Chenyu and Li, Minxian and Zhou, Kaiyang},
+  journal={arXiv preprint arXiv:2505.13430},
+  year={2025}
 }
 ```
 # Acknowledgment
