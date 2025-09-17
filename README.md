@@ -35,6 +35,8 @@ Fine-tuning large language models (LLMs) unlocks their potential for various dow
    pip install -r requirements.txt
    ```
 
+   Note that if 
+
 3. To start training, you may refer to the example scripts (`scripts/examples.sh`) located in both the `large_language_models` and `stable_diffusion` folders. 
 
    You may also need to comment out part of the sanity check codes in `transformers.trainer.py` to support the direct fine-tuning of a quantized language model. For example, if you are using `transformers==4.48.0`, you need to comment out the following code starting from line 553 in the trainer scripts, and append a `pass` in the end:
