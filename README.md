@@ -35,7 +35,7 @@ Fine-tuning large language models (LLMs) unlocks their potential for various dow
    pip install -r requirements.txt
    ```
 
-   Note that if 
+   Note that `gptqmodel==1.7.2` with `Triton` is required to reproduce the results with GPTQ. Otherwise, unexpected behaviour will be observed, such as divergence when using the Marlin kernel (see this [issue](https://github.com/maifoundations/QZO/issues/4) for more details). 
 
 3. To start training, you may refer to the example scripts (`scripts/examples.sh`) located in both the `large_language_models` and `stable_diffusion` folders. 
 
