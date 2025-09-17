@@ -16,7 +16,7 @@ Zeroth-order Optimization'.
 # ✈️Introduction
 Fine-tuning large language models (LLMs) unlocks their potential for various downstream tasks. However, as the parameter size of LLMs continues to grow exponentially, a significant bottleneck in GPU memory becomes a major issue. In this work, we propose a novel memory-efficient training method, Quantized Zeroth-order Optimization (QZO), which minimizes the VRAM cost of model weights, gradients, and optimizer states within a unified work. Notably, QZO achieves a total VRAM reduction of 18x compared with regular fine-tuning during the memory profiling (see the figure below). 
 
-![](.\images\memory_profiling.jpg)
+![](./images/memory_profiling.jpg)
 
 # 🗒️Installation
 
